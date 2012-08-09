@@ -1,34 +1,45 @@
 
 h1, h2{
-         font-family: "Carter one", cursive;
-         font-size: 35px;
-         }
+       font-family: "Carter one", cursive;
+       font-size: 35px;
+}
        
- p, ol{
-         font-family: "Lusitana", serif;
-         font-size: 18px;
-         }
+p, ol{
+      font-family: "Lusitana", serif;
+      font-size: 18px;
+}
          
-    nav{
-         font-family: "Lusitana", serif;
-         font-size: 15px;
-         }
- a:link{
-         color:#2156fa;
-         }
+nav{
+    font-family: "Lusitana", serif;
+    font-size: 15px;
+}
+
+a:link{
+       color:#2156fa;
+}
          
-  a:visited{
+a:visited{
          color:#ef0c3a;
-         }
+}
  
-  a:hover{
-         color:#52d37a;
-         }
+a:hover{
+        color:#52d37a;
+}
          
-   a:active{
+a:active{
          color:#732b7a;
-         }                  
-               
+}
+
+ul{
+   list-style-type: none;
+}                  
+
+body{
+     width: 640px;
+     background-color: #999;
+     margin: 0 auto;
+     
+         
         
    
          
