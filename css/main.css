@@ -13,6 +13,23 @@ h1, h2{
          font-family: "Lusitana", serif;
          font-size: 15px;
          }
+ a:link{
+         color:#2156fa;
+         }
+         
+  a:visited{
+         color:#ef0c3a;
+         }
+ 
+  a:hover{
+         color:#52d37a;
+         }
+         
+   a:active{
+         color:#732b7a;
+         }                  
+               
+        
    
          
          
