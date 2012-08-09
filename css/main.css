@@ -12,7 +12,9 @@ p, ol{
 nav{
     font-family: "Lusitana", serif;
     font-size: 15px;
+    width: 640px;
 }
+
 
 a:link{
        color:#2156fa;
@@ -32,12 +34,26 @@ a:active{
 
 ul{
    list-style-type: none;
+   width 600px
+   margin: 0 auto;
+  
+}
+
+li{
+   width: 100px;
+   background: silver;
+   padding: 0;
+   float: left; 
 }                  
 
 body{
      width: 640px;
-     background-color: #999;
      margin: 0 auto;
+     background-color: #666;
+}
+
+
+    
      
          
         
