@@ -1,6 +1,7 @@
 body{
      width: 640px;
      margin: 0 auto;
+     
 }
 
 h1, h2{
@@ -12,6 +13,8 @@ p, ol{
       font-family: "Lusitana", serif;
       font-size: 18px;
 }
+
+/*-----------Navigation Editing------------*/ 
          
 nav{
     font-family: "Lusitana", serif;
@@ -37,7 +40,7 @@ a:active{
 }
 
 ul{
-  widht: 500px;
+  width: 640px;
   margin: 0 auto;
   background: #666;
   list-style-type: none;
@@ -63,6 +66,16 @@ ul a{
 ul a:hover{
            background: #c3a87a
 } 
+
+body h1, h2{
+           text-align: center;
+           text-decoration: underline;
+       
+}
+
+body img{
+        text-align: center;
+}
 
 
 
