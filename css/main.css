@@ -1,17 +1,27 @@
+/*---------body editing---------------*/
 body{
      width: 640px;
      margin: 0 auto;
-     
+     background: gray;
+}
+
+p{
+  text-align: center;
 }
 
 h1, h2{
        font-family: "Carter one", cursive;
        font-size: 35px;
+       text-align: center;
 }
        
 p, ol{
       font-family: "Lusitana", serif;
       font-size: 18px;
+}
+
+body img{
+         display: block;
 }
 
 /*-----------Navigation Editing------------*/ 
@@ -67,15 +77,11 @@ ul a:hover{
            background: #c3a87a
 } 
 
-body h1, h2{
-           text-align: center;
-           text-decoration: underline;
-       
-}
 
-body img{
-        text-align: center;
-}
+       
+
+
+
 
 
 
