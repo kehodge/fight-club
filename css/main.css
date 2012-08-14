@@ -2,22 +2,30 @@
 body{
      width: 640px;
      margin: 0 auto;
-     background: gray;
+     background: silver;
+     font:100%;
 }
 
 p{
   text-align: center;
+  
+  
 }
 
 h1, h2{
        font-family: "Carter one", cursive;
-       font-size: 48px;
+       font-size: 3em; /*48px*/
        text-align: center;
+}
+
+h1{
+   padding-top: 15px;
+
 }
        
 p, ol{
       font-family: "Lusitana", serif;
-      font-size: 25px;
+      font-size: 1.25em;
 }
 
 body img{
@@ -26,6 +34,11 @@ body img{
 
 #p{
    width:80%;
+}
+
+strong{
+       font-style: italic;
+       color: red;
 }
 
 /*-----------Navigation Editing------------*/ 
@@ -83,12 +96,16 @@ ul a:hover{
 
 /*----------------Images---------------------*/
 
-strong{
-       font-style: italic;
+
+img{
+    margin: auto;
+    padding-top: 30px;
+}       
+
+footer{
+       text-align: center;
+       padding-top: 50px;
 }
-       
-
-
 
 
 
