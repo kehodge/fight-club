@@ -14,7 +14,7 @@ p{
 
 h1, h2{
        font-family: "Carter one", cursive;
-       font-size: 3em; /*48px*/
+       font-size: 3em;/*48px*/
        text-align: center;
 }
 
@@ -39,6 +39,9 @@ body img{
 strong{
        font-style: italic;
        color: red;
+       text-decoration: underline;
+       
+       
 }
 
 /*-----------Navigation Editing------------*/ 
@@ -70,7 +73,7 @@ ul{
   width: 640px;
   margin: 0 auto;
   background: #666;
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   overflow: hidden;
 }
