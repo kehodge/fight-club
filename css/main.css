@@ -53,7 +53,7 @@ nav{
 }
 
 a:link{
-       color:#2156fa;
+       color:white;
 }
          
 a:visited{
@@ -110,6 +110,9 @@ footer{
        padding-top: 50px;
 }
 
+body{
+     background-image: url("../fc images/fightclub1999.jpg");
+{
 
 
 
