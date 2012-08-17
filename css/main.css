@@ -1,35 +1,43 @@
 /*---------body editing---------------*/
 body{
-     width: 640px;
-     margin: 0 auto;
-     background: silver;
-     font:100%;
+     margin: 36px auto;
+     font:100%
+     max-width: 960px;
 }
 
-p{
-  text-align: center;
-  
-  
+#wrapper{
+         width: 100%;
+         margin: 0 auto;
+         overflow: hidden;
 }
+
+clearFix{
+        clear: both;
+}
+
+
 
 h1, h2{
        font-family: "Carter one", cursive;
        font-size: 3em;/*48px*/
        text-align: center;
+       color: #000;
 }
 
 h1{
-   padding-top: 15px;
+   padding-top: 4.531722054381%;
 
 }
        
 p, ol{
       font-family: "Lusitana", serif;
-      font-size: 1.25em;
+      font-size: 1.25em;/*15px*/
+      text-align: center;
 }
 
 body img{
          display: block;
+         
 }
 
 #p{
@@ -40,16 +48,14 @@ strong{
        font-style: italic;
        color: red;
        text-decoration: underline;
-       
-       
 }
+
 
 /*-----------Navigation Editing------------*/ 
          
 nav{
     font-family: "Lusitana", serif;
-    font-size: 15px;
-   
+    font-size: 1.25em;
 }
 
 a:link{
@@ -70,7 +76,7 @@ a:active{
 }
 
 ul{
-  width: 640px;
+  width: 100%;
   margin: 0 auto;
   list-style: none;
   padding: 0;
@@ -78,7 +84,7 @@ ul{
 }
 
 nav ul li{
-      width: 128px;
+      width: 20%;
       background: #000;
       float: left;
       
@@ -101,18 +107,76 @@ ul a:hover{
 
 img{
     margin: auto;
-    padding-top: 30px;
+    padding-top: 9.063444108761%;
     
 }       
 
 footer{
        text-align: center;
-       padding-top: 50px;
+       padding-top: 15.105740181269%;
 }
 
 body{
      background-image: url("../fc images/fightclub1999.jpg");
 {
+
+#fight_club_soap{
+                 border: 8px solid: #333;
+                 width: 100%; 
+}
+
+#fight_club_soap img{
+                    max-width:100%;
+}
+
+#mischief{
+                 border: 8px solid: #333;
+                 width: 51.40625%; 
+}
+
+#mischief img{
+                    max-width:100%;
+}
+
+#fight_club_artwork{
+                 border: 8px solid: #333;
+                 width: 50%; 
+}
+
+#fight_club_artwork img{
+                    max-width:100%;
+}
+
+ul img{
+       border: 8px solid: #333;
+        width: 50%; 
+}
+
+img{
+    max-width:100%;
+}
+
+
+/* =Media Queries
+================================================*/
+
+
+@media only screen and (max-width: 479px){
+ background: gray;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 767px){
+
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 959px){
+
+}
+
+
+
+
+
 
 
 
