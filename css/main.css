@@ -152,7 +152,7 @@ ul img{
         width: 50%; 
 }
 
-img{
+ul img{
     max-width:100%;
 }
 
@@ -161,17 +161,25 @@ img{
 ================================================*/
 
 
+
+
+@media screen and (min-width: 768px)and(max-width: 959px){
+ #wrapper{background-color:#333;}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+
+}
+
 @media only screen and (max-width: 479px){
- background: gray;
-}
+  #fight_club_soap{ display:none;}  
+ 
+ 
+ }
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 767px){
 
-}
-
-@media only screen and (max-width: 768px), only screen and (max-device-width: 959px){
-
-}
 
 
 
