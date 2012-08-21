@@ -3,36 +3,38 @@ body{
      margin: 36px auto;
      font:100%
      max-width: 960px;
+     background: black;
 }
 
-#wrapper{
-         width: 100%;
-         margin: 0 auto;
-         overflow: hidden;
-}
+
 
 clearFix{
         clear: both;
 }
 
-
+p{
+  text-indent: 20px;
+}
 
 h1, h2{
        font-family: "Carter one", cursive;
        font-size: 3em;/*48px*/
        text-align: center;
        color: #000;
+       text-shadow:2px 2px 2px #111;
+       
 }
 
 h1{
    padding-top: 4.531722054381%;
-
+   
 }
        
 p, ol{
       font-family: "Lusitana", serif;
       font-size: 1.25em;/*15px*/
-      text-align: center;
+      
+      
 }
 
 body img{
@@ -48,6 +50,23 @@ strong{
        font-style: italic;
        color: red;
        text-decoration: underline;
+}
+
+aside ol{
+         text-align:center;
+     
+}
+
+div{
+    -moz-column-count:2;
+}
+
+
+/*----------Footer----------*/
+
+footer{
+       text-align: center;
+       
 }
 
 
@@ -76,26 +95,27 @@ a:active{
 }
 
 ul{
-  width: 100%;
-  margin: auto;
-  list-style: none;
-  padding: 0;
-  overflow: hidden;
+   width: 640px;
+   margin: 0 auto;
+   background: #000;
+   list-style-type: none;
+   padding:0;
+   overflow: hidden;
+   
 }
-
-nav ul li{
-      width: 20%;
-      background: #000;
-      float: left;
       
-      
-}
+ul li{
+          width: 128px;
+          background: black;
+          float: left;
+        
+}      
 
-nav ul a{
+ul a{
      text-decoration: none;
      display: block;
-     height: 25px;
-     line-height: 25px;
+     height:30px;
+     line-height: 30px;
      text-align: center;     
 }
 
@@ -103,82 +123,16 @@ ul a:hover{
            background: #c3a87a
 } 
 
-/*----------------Images---------------------*/
-
-
-img{
-    margin: auto;
-    padding-top: 9.063444108761%;
-    
-}       
-
-footer{
-       text-align: center;
-       padding-top: 15.105740181269%;
-}
-
 body{
      background-image: url("../fc images/fightclub1999.jpg");
-{
-
-#fight_club_soap{
-                 border: 8px solid: #333;
-                 width: 100%; 
 }
 
-#fight_club_soap img{
-                    max-width:100%;
-}
-
-#mischief{
-                 border: 8px solid: #333;
-                 width: 51.40625%; 
-}
-
-#mischief img{
-                    max-width:100%;
-}
-
-#fight_club_artwork{
-                 border: 8px solid: #333;
-                 width: 50%; 
-}
-
-#fight_club_artwork img{
-                    max-width:100%;
-}
-
-ul img{
-       border: 8px solid: #333;
-        width: 50%; 
-}
-
-ul img{
-    max-width:100%;
+img{
+    margin:auto;
 }
 
 
-/* =Media Queries
-================================================*/
 
-
-
-
-@media screen and (min-width: 768px)and(max-width: 959px){
- #wrapper{background-image:none;}
-
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-
-
-}
-
-@media only screen and (max-width: 479px){
-  #fight_club_soap{ display:none;}  
- 
- 
- }
 
 
 
