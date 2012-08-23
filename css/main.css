@@ -1,7 +1,7 @@
 /*---------body editing---------------*/
 body{
      margin: 36px auto;
-     font:100%
+     font:100%;
      max-width: 960px;
      background: black;
 }
@@ -21,7 +21,8 @@ h1, h2{
        font-size: 3em;/*48px*/
        text-align: center;
        color: #000;
-       text-shadow:2px 2px 2px #111;
+       text-shadow:3px 2px 2px #111;
+       opacity:0.8;
        
 }
 
@@ -57,7 +58,7 @@ aside ol{
      
 }
 
-div{
+div {
     -moz-column-count:2;
 }
 
@@ -66,6 +67,7 @@ div{
 
 footer{
        text-align: center;
+       
        
 }
 
@@ -94,7 +96,7 @@ a:active{
          color:#732b7a;
 }
 
-ul{
+nav ul{
    width: 640px;
    margin: 0 auto;
    background: #000;
@@ -104,14 +106,14 @@ ul{
    
 }
       
-ul li{
+nav ul li{
           width: 128px;
           background: black;
           float: left;
         
 }      
 
-ul a{
+nav ul a{
      text-decoration: none;
      display: block;
      height:30px;
@@ -119,7 +121,7 @@ ul a{
      text-align: center;     
 }
 
-ul a:hover{
+nav ul a:hover{
            background: #c3a87a
 } 
 
@@ -130,6 +132,34 @@ body{
 img{
     margin:auto;
 }
+
+/*-----------Sample Photo Gallery------------*/ 
+
+div ul{
+       list-style-type: none;
+       margin:20px auto;
+       width:810px;
+       overflow:hidden;
+       padding:5px;
+}
+
+div ul li{
+          float:left;
+          margin-left:60px;
+}
+
+div ul a{
+         border:5px solid #fff;
+         display:block;
+         height: 180px;
+         width:200px;
+}    
+   
+    
+
+
+
+
 
 
 
