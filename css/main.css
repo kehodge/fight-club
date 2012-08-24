@@ -58,7 +58,7 @@ aside ol{
      
 }
 
-div{
+#info{
     -moz-column-count:2;
 }
 
@@ -67,6 +67,7 @@ div{
 
 footer{
        text-align: center;
+       padding-top: 4.531722054381%;
        
        
 }
@@ -215,7 +216,11 @@ th{
     padding:0.4em;
 }
 
-#odd{
+#odd1{
+         background-color: gray;
+}
+
+#odd2{
          background-color: gray;
 }
 
